@@ -15,8 +15,7 @@ class MainActivity : AppCompatActivity() {
                 .baseUrl("https://workshopup.herokuapp.com/")
                 .build()
 
-        val service = retrofit.create<API>(API::class.java!!)
-        Ca
+        val service = retrofit.create<API>(API::class.java!!)git
     }
 
 }
